@@ -33,7 +33,7 @@ Multi-contrast MR images and horizontal and vertical gradients structure informa
 
 Unsupervised deep learning in gradient domain (UDLGD) for multi-contrast MRI reconstruction framework. UDLGD iterates between two alternative stages: Top: Training stage to learn the gradient distribution via denoising score matching. Bottom: Reconstruction to progressively remove aliasing and recover fine details via Langevin dynamics and group sparsity.   and   stand for extracting the real and imaging part, respectively. The gradient encoding means reconstructing the images from horizontal and vertical gradient estimates, and the gradient decoding means deriving the gradients from spatial images. It is worth noting that UDLGD is learned from single-modal dataset, while used for multi-contrast image reconstruction.
 
-## Reconstruction Results by Various Methods at 2D Random Undersampling, acceleration factor = 4.
+Reconstruction Results by Various Methods at 2D Random Undersampling, acceleration factor = 4.
 <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/TSE_sag_random.png"> </div>
 
 Visual comparison of TSE_sag (256 × 256) reconstructions using same sampling schemes with acceleration  . a: TSE scans at Nyquist rate sampling. b: Random sampling pattern. cd: BCS reconstruction and its absolute error. ef: GSMRI reconstruction and its absolute error. gh: FCSA-MT reconstruction and its absolute error. ij: UDLGD reconstruction and its absolute error. kl: UDLGD-GS reconstruction and its absolute error.
