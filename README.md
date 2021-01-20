@@ -14,15 +14,10 @@ This paper proposes an efficient unsupervised deep learning algorithm in gradien
 
 ## Test
 ```bash
-
-Random sampling pattern, acceleration factor = 4
-
 % UDLGD 
 python3.5 separate_SIAT.py --model ncsn --runner siat_multicontrast_compare_TSE_sag_random_R4 --config anneal_lr005_gradient4.yml --doc SIAT1_1dataaug4ch_lr005gradient4 --test --image_folder result_MultiContrast_Sag_4_random_R4
-
 % UDLGD_GS
 python3.5 separate_SIAT.py --model ncsn --runner siat_multicontrast_compare_TSE_sag_random_R4 --config anneal_lr005_gradient4.yml --doc SIAT1_1dataaug4ch_lr005gradient4 --test --image_folder result_MultiContrast_Sag_4_random_R4_GS --GS
-
 ```
 
 ## Graphical representation
