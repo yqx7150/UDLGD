@@ -41,6 +41,7 @@ Visual comparison of TSE_sag (256 × 256) reconstructions using same sampling sc
 ## Table
 <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/table.png"> </div>
 Summary of quantitative reconstruction results (PSNR/SNR/RMSE) on the TSE datasets using the FIVE algorithms after retrospective under-sampling with various patterns and acceleration factors. The size of test images is 256×256.
+
 ## Checkpoints
 We provide pretrained checkpoints. You can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1PF0uxHE0fuPbAjory2yMOg). 
 key number is "011k" 
