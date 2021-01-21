@@ -20,20 +20,20 @@ python3.5 separate_SIAT.py --model ncsn --runner siat_multicontrast_compare_TSE_
 ```
 
 ## Graphical representation
- <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/fig1.png">  </div>
+ <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/main/blob/fig1.png">  </div>
  
 Multi-contrast MR images and horizontal and vertical gradients structure information of the corresponding multi-contrast MR images. Here the value range of T1 and T2 images are different, while the corresponding gradient images are near to the same.
- <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/fig2.png"> </div>
+ <div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/main/blob/fig2.png"> </div>
 
 Unsupervised deep learning in gradient domain (UDLGD) for multi-contrast MRI reconstruction framework. UDLGD iterates between two alternative stages: Top: Training stage to learn the gradient distribution via denoising score matching. Bottom: Reconstruction to progressively remove aliasing and recover fine details via Langevin dynamics and group sparsity.   and   stand for extracting the real and imaging part, respectively. The gradient encoding means reconstructing the images from horizontal and vertical gradient estimates, and the gradient decoding means deriving the gradients from spatial images. It is worth noting that UDLGD is learned from single-modal dataset, while used for multi-contrast image reconstruction.
 
 Reconstruction Results by Various Methods at 2D Random Undersampling, acceleration factor = 4.
-<div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/TSE_sag_random.png"> </div>
+<div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/main/blob/TSE_sag_random.png"> </div>
 
 Visual comparison of TSE_sag (256 × 256) reconstructions using same sampling schemes with acceleration  . a: TSE scans at Nyquist rate sampling. b: Random sampling pattern. cd: BCS reconstruction and its absolute error. ef: GSMRI reconstruction and its absolute error. gh: FCSA-MT reconstruction and its absolute error. ij: UDLGD reconstruction and its absolute error. kl: UDLGD-GS reconstruction and its absolute error.
 
 ## Table
-<div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/table.png"> </div>
+<div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/main/blob/table.png"> </div>
 Summary of quantitative reconstruction results (PSNR/SNR/RMSE) on the TSE datasets using the FIVE algorithms after retrospective under-sampling with various patterns and acceleration factors. The size of test images is 256×256.
 
 ## Checkpoints
