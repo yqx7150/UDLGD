@@ -32,10 +32,6 @@ Reconstruction Results by Various Methods at 2D Random Undersampling, accelerati
 
 Visual comparison of TSE_sag (256 × 256) reconstructions using same sampling schemes with acceleration  . a: TSE scans at Nyquist rate sampling. b: Random sampling pattern. cd: BCS reconstruction and its absolute error. ef: GSMRI reconstruction and its absolute error. gh: FCSA-MT reconstruction and its absolute error. ij: UDLGD reconstruction and its absolute error. kl: UDLGD-GS reconstruction and its absolute error.
 
-## Table
-<div align="center"><img src="https://github.com/yqx7150/UDLGD/blob/main/UDLGD_rec/figs/table.png"> </div>
-Summary of quantitative reconstruction results (PSNR/SNR/RMSE) on the TSE datasets using the FIVE algorithms after retrospective under-sampling with various patterns and acceleration factors. The size of test images is 256×256.
-
 ## Checkpoints
 We provide pretrained checkpoints. You can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1PF0uxHE0fuPbAjory2yMOg). 
 key number is "011k" 
